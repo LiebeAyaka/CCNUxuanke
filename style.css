@@ -1,4 +1,43 @@
-table {border-collapse: collapse;width: 100%;}
-table,th,td { border: 1px solid black;}
-th,td {padding: 8px;text-align: left; }
-tr:nth-child(even) {background-color: #f2f2f2;}
+.table-style1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-style1, .table-style1 th, .table-style1 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-style1 th, .table-style1 td {
+    text-align: center;
+}
+
+.table-style1 th {
+    background-color: #f2f2f2;
+}
+
+.table-style2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-style2, .table-style2 th, .table-style2 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-style2 th, .table-style2 td {
+    text-align: center;
+}
+
+.table-style2 th {
+    background-color: #f2f2f2;
+}
+
+.table-style2 td {
+    color: red;
+}
